@@ -5,7 +5,7 @@ import { useState } from "react";
 function App() {
   let [oldExpression, setOldExpression] = useState("");
   let [expression, setExpression] = useState("0");
-  let [prev, setPrev] = useState("ANS");
+  let [prev, setPrev] = useState("ANSx`");
   let numerics = new Set("0123456789");
 
   let operators = new Set("+-*/.");
